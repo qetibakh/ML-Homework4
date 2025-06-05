@@ -72,7 +72,16 @@ Conv → BatchNorm → ReLU → MaxPool (repeat)
 **Real research insight** - Not every technique improves every dataset! This is authentic machine learning research where you test hypotheses and learn from results.
 
 ## WandB Tracking
-All experiments logged to: `fer2013-cs231n` project
-- Real-time training curves
-- Confusion matrices for each model
-- Hyperparameter comparison
+**Project Dashboard**: [fer2013-cs231n](https://wandb.ai/qetibaxtura-free-university-of-tbilisi-/fer2013-cs231n)
+
+**Individual Experiment Runs**:
+- [Experiment 1 - Simple CNN](https://wandb.ai/qetibaxtura-free-university-of-tbilisi-/fer2013-cs231n/runs/exp1_simple_cnn)
+- [Experiment 2 - Small Filters](https://wandb.ai/qetibaxtura-free-university-of-tbilisi-/fer2013-cs231n/runs/exp2_small_filters)  
+- [Experiment 3 - Regularized](https://wandb.ai/qetibaxtura-free-university-of-tbilisi-/fer2013-cs231n/runs/exp3_regularized)
+- [Experiment 4 - Batch Norm](https://wandb.ai/qetibaxtura-free-university-of-tbilisi-/fer2013-cs231n/runs/exp4_batch_norm)
+
+**Features**:
+- Real-time training curves (loss/accuracy)
+- Confusion matrices for each model  
+- Hyperparameter comparison across experiments
+- Model architecture summaries
